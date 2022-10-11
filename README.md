@@ -41,6 +41,24 @@ To learn more about repositories read ["Creating, Cloning, and Archiving Reposit
 ### Branches
 You can use branches on GitHub to isolate work that you do not want merged into your final project just yet. Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository. Typically, you might create a new branch from the default branch of your repository—main. This makes a new working copy of your repository for you to experiment with. Once your new changes have been reviewed by a teammate, or you are satisfied with them, you can merge your changes into the default branch of your repository.
 To learn more about branching, read ["About Branches"](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches).
+Basic Branching and Merging
+Let’s go through a simple example of branching and merging with a workflow that you might use in the real world. You’ll follow these steps:
+
+Do some work on a website.
+
+Create a branch for a new user story you’re working on.
+
+Do some work in that branch.
+
+At this stage, you’ll receive a call that another issue is critical and you need a hotfix. You’ll do the following:
+
+Switch to your production branch.
+
+Create a branch to add the hotfix.
+
+After it’s tested, merge the hotfix branch, and push to production.
+
+Switch back to your original user story and continue working.
 
 ### Forks
 A fork is another way to copy a repository, but is usually used when you want to contribute to someone else’s project. Forking a repository allows you to freely experiment with changes without affecting the original project and is very popular when contributing to open source software projects!
